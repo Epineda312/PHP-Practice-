@@ -2,6 +2,7 @@
   <?php
     $display_name = 'Eric Pineda';
     $email = 'Epineda773@protonmail.com';
+    $today = date("F j, Y, g:i a"); 
   ?>
 <!-- PHP CODE BLOCK END-->  
 <!DOCTYPE html>
@@ -26,7 +27,7 @@
             <li><a href=""><span class="icon twitter"></span></a></li>
           </ul>
           <hr />
-          <p>Today: D, d M Y</p>
+          <p><?php echo "Today's Date: ".$today;?></p>
         </section>
         <section class="main">
           <h1>My First PHP Page</h1>
