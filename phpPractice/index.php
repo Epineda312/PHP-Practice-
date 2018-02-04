@@ -20,7 +20,7 @@
           </div>
           <h1><?php echo $display_name;?></h1>
           <p>Contact:<br />
-          <a href="mailto:">EMAIL:<?php echo $email;?></a></p>
+          <a href="mailto:"><?php echo $email;?></a></p>
           <hr />
           <ul class="social">
             <li><a href=""><span class="icon twitter"></span></a></li>
