@@ -1,6 +1,7 @@
 <!-- PHP CODE BLOCK-->  
   <?php
     $display_name = 'Eric Pineda';
+    $email = 'Epineda773@protonmail.com';
   ?>
 <!-- PHP CODE BLOCK END-->  
 <!DOCTYPE html>
@@ -19,7 +20,7 @@
           </div>
           <h1><?php echo $display_name;?></h1>
           <p>Contact:<br />
-          <a href="mailto:">EMAIL</a></p>
+          <a href="mailto:">EMAIL:<?php echo $email;?></a></p>
           <hr />
           <ul class="social">
             <li><a href=""><span class="icon twitter"></span></a></li>
