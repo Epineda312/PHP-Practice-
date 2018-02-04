@@ -1,2 +1,2 @@
 # PHP-Practice-
-Very Simple PHP Practice page
+Page I used to learn/practice PHP 
